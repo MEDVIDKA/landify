@@ -1,0 +1,33 @@
+.header {
+    padding-top: 16px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    &_logo {
+    }
+
+    &_wrapper {
+        display: flex;
+        gap: 32px;
+        align-items: center;
+    }
+
+    &_nav {
+        display: flex;
+        gap: 32px;
+        &-item {
+            a {
+                font-size: 14px;
+                font-weight: bold;
+                color: #000;
+            }
+        }
+    }
+
+    &_download {
+        display: flex;
+        gap: 12px;
+        img {
+        }
+    }
+}

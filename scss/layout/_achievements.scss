@@ -1,0 +1,47 @@
+.achievements {
+    padding: 82px 165px;
+    display: flex;
+    gap: 30px;
+    &_top {
+        max-width: 50%;
+        &-title {
+            font-size: 48px;
+            line-height: 64px;
+            font-weight: bold;
+            margin-bottom: 40px;
+        }
+        &-subtitle {
+            font-size: 18px;
+            line-height: 32px;
+        }
+    }
+
+    &_list {
+        max-width: 50%;
+        display: flex;
+        gap: 30px;
+        flex-wrap: wrap;
+        &-items {
+            display: flex;
+            gap: 16px;
+            align-items: center;
+            flex-grow: 1;
+            width: 255px;
+            flex-basis: 255px;
+            img {
+            }
+
+            &-info {
+                &-title {
+                    font-size: 28px;
+                    font-weight: bold;
+                    line-height: 40px;
+                }
+                &-subtitle {
+                    font-size: 16px;
+                    line-height: 26px;
+                }
+            }
+        }
+    }
+}

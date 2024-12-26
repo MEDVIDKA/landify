@@ -1,0 +1,21 @@
+@import "./layout/reset";
+
+@import "./layout/header";
+@import "./layout/main";
+@import "./layout/companies";
+@import "./layout/features";
+@import "./layout/stories";
+@import "./layout/achievements";
+@import "./layout/headline";
+@import "./layout/enter";
+@import "./layout/manage";
+@import "./layout/footer";
+
+@import "./layout/media";
+
+.window {
+    background-image: url("../../assets/img/mainbg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 0px 165px;
+}

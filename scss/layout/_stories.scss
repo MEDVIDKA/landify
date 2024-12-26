@@ -1,0 +1,145 @@
+.stories {
+    background: #d5fafc;
+    padding: 120px 260px;
+    position: relative;
+    height: 900px;
+    &_top {
+        &-title {
+            font-size: 48px;
+            line-height: 64px;
+            font-weight: bold;
+            max-width: 445px;
+            margin-bottom: 8px;
+        }
+        &-subtitle {
+            font-size: 18px;
+            line-height: 32px;
+        }
+    }
+
+    &_card1 {
+        position: absolute;
+        top: 170px;
+        left: 735px;
+        border-radius: 6px;
+        padding: 32px;
+        box-shadow: 0px 10px 20px 0px rgba(41, 41, 42, 0.07);
+        background: #fff;
+        max-width: 445px;
+        img {
+            margin-bottom: 32px;
+        }
+        &-descr {
+            padding-top: 5px;
+            position: relative;
+            margin-left: 32px;
+            line-height: 32px;
+            margin-bottom: 24px;
+
+            &::before {
+                content: url("../../assets/img/minimark.png");
+                width: 15px;
+                height: 15px;
+                position: absolute;
+                top: 0;
+                left: -32px;
+            }
+        }
+        &-name {
+            margin-left: 32px;
+            font-size: 18px;
+            font-weight: bold;
+            line-height: 28px;
+        }
+        &-pos {
+            margin-left: 32px;
+            color: #969bab;
+            font-size: 14px;
+            line-height: 24px;
+        }
+    }
+
+    &_card2 {
+        position: absolute;
+        top: 312px;
+        left: 355px;
+        border-radius: 6px;
+        padding: 32px;
+        box-shadow: 0px 10px 20px 0px rgba(41, 41, 42, 0.07);
+        background: #fff;
+        max-width: 350px;
+        img {
+            margin-bottom: 32px;
+        }
+        &-descr {
+            padding-top: 5px;
+            position: relative;
+            margin-left: 32px;
+            line-height: 32px;
+            margin-bottom: 24px;
+
+            &::before {
+                content: url("../../assets/img/minimark.png");
+                width: 15px;
+                height: 15px;
+                position: absolute;
+                top: 0;
+                left: -32px;
+            }
+        }
+        &-name {
+            margin-left: 32px;
+            font-size: 18px;
+            font-weight: bold;
+            line-height: 28px;
+        }
+        &-pos {
+            margin-left: 32px;
+            color: #969bab;
+            font-size: 14px;
+            line-height: 24px;
+        }
+    }
+
+    &_card3 {
+        position: absolute;
+        top: 540px;
+        left: 735px;
+        border-radius: 6px;
+        padding: 32px;
+        box-shadow: 0px 10px 20px 0px rgba(41, 41, 42, 0.07);
+        background: #fff;
+        max-width: 350px;
+        img {
+            margin-bottom: 32px;
+        }
+        &-descr {
+            padding-top: 5px;
+            position: relative;
+            margin-left: 32px;
+            line-height: 32px;
+            margin-bottom: 24px;
+
+            &::before {
+                content: url("../../assets/img/minimark.png");
+                width: 15px;
+                height: 15px;
+                position: absolute;
+                top: 0;
+                left: -32px;
+            }
+        }
+        &-name {
+            margin-left: 32px;
+            font-size: 18px;
+            font-weight: bold;
+            line-height: 28px;
+        }
+        &-pos {
+            margin-left: 32px;
+            color: #969bab;
+            font-size: 14px;
+            line-height: 24px;
+        }
+    }
+}

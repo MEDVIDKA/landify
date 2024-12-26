@@ -1,0 +1,51 @@
+.companies {
+    padding: 15px 165px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+    &_list {
+        display: flex;
+        justify-content: center;
+        gap: 64px;
+        &-item {
+            padding: 45px 0;
+        }
+    }
+}
+
+.companies_list {
+    display: flex;
+    gap: 100px;
+    align-items: center;
+    animation: scrollLeft 60s linear infinite;
+    will-change: transform;
+}
+
+.companies_list-item {
+    width: 100px;
+    height: auto;
+}
+
+@keyframes scrollLeft {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(-100%);
+    }
+}
+
+.companies_list::after {
+    content: "";
+    display: inline-flex;
+    gap: 30px;
+    align-items: center;
+    background-image: url("./assets/svg/airbnb.svg"),
+        url("./assets/svg/hubspot.svg"), url("./assets/svg/google.svg"),
+        url("./assets/svg/microsoft.svg"), url("./assets/svg/walmart.svg"),
+        url("./assets/svg/fedex.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 100%;
+}

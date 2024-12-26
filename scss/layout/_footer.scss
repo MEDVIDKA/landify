@@ -1,0 +1,51 @@
+.footer {
+    padding: 56px 165px;
+    background: #0b0d17;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    &_info {
+        img {
+            margin-bottom: 24px;
+        }
+
+        &-links {
+            display: flex;
+            gap: 24px;
+            margin-bottom: 12px;
+            &-link {
+                a {
+                    font-size: 16px;
+                    line-height: 24px;
+                    color: #fff;
+                    font-weight: 300;
+                }
+            }
+        }
+
+        &-rights {
+            color: #d9dbe1;
+            font-size: 14px;
+            line-height: 24px;
+            margin-top: 24px;
+        }
+    }
+
+    &_download {
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+        &-title {
+            font-size: 18px;
+            line-height: 28px;
+        }
+
+        &-icons {
+            display: flex;
+            flex-direction: column;
+            gap: 16px;
+            &-icon {
+            }
+        }
+    }
+}
